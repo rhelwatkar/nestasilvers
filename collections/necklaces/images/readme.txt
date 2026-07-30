@@ -1,0 +1,1 @@
+Place necklace product images here. Each product can have one or more images for display on necklace product pages.
