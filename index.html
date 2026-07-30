@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nesta Silvers</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="Logo.PNG">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand-logo">
+        <img src="Logo.PNG" alt="Nesta Silvers logo">
+      </a>
+      <nav class="main-nav">
+        <a href="#trending">Trending</a>
+        <a href="#collection">Collection</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <span class="eyebrow">Jewellery</span>
+        <h1>Shine Bright With Nesta Silvers</h1>
+        <p>Every day is your special day with our fine jewellery.</p>
+        <a class="cta" href="#collection">Shop</a>
+      </div>
+      <div class="hero-image">
+        <img src="IMG_7090.jpg" alt="Silver jewelry necklace">
+      </div>
+    </div>
+  </section>
+
+  <main class="container">
+    <section class="feature-grid">
+      <article class="feature-card">
+        <div class="feature-icon">✨</div>
+        <h3>Premium 925 Silver</h3>
+        <p>Every piece is handcrafted using genuine 925 silver, delivering durability, shine, and timeless elegance.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon">💠</div>
+        <h3>Quality Craftsmanship</h3>
+        <p>Each piece is made from certified 925 silver and finished with care for lasting shine. Designed to stay beautiful for years, it is perfect for everyday wear and special moments alike.</p>
+      </article>
+      <article class="feature-card">
+        <div class="feature-icon">🌟</div>
+        <h3>Handpicked For Women</h3>
+        <p>Our collection is designed for ladies and girls, from petite pieces for young wearers to elegant styles for grown women, all finely picked for every moment.</p>
+      </article>
+    </section>
+
+    <section id="collections" class="collections-section">
+      <p class="section-label">Explore</p>
+      <h2>Explore Collections</h2>
+      <div class="collection-grid">
+        <article class="collection-card">
+        <div class="collection-image"><img src="rakhi/26-07-19 11-07-30 1.png" alt="Rakhi thumbnail"></div>
+          <p>Rakhis</p>
+        </article>
+        <article class="collection-card">
+          <div class="collection-image">E</div>
+          <p>Earrings</p>
+        </article>
+        <article class="collection-card">
+          <div class="collection-image">N</div>
+          <p>Necklaces</p>
+        </article>
+        <article class="collection-card">
+          <div class="collection-image">A</div>
+          <p>Anklets</p>
+        </article>
+        <article class="collection-card">
+          <div class="collection-image">P</div>
+          <p>Pendants</p>
+        </article>
+        <article class="collection-card">
+          <div class="collection-image">R</div>
+          <p>Rings</p>
+        </article>
+        <article class="collection-card">
+          <div class="collection-image">C</div>
+          <p>Chains</p>
+        </article>
+        <article class="collection-card">
+          <div class="collection-image">T</div>
+          <p>Toe Rings</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="collection" class="products">
+      <div class="item">
+        <img src="images/ring.jpg" alt="Silver Ring">
+        <h3>Silver Ring</h3>
+        <p class="price">₹1200</p>
+        <button onclick="addToCart('Silver Ring', 1200)">Add to Cart</button>
+      </div>
+      <div class="item">
+        <img src="images/bracelet.jpg" alt="Silver Bracelet">
+        <h3>Silver Bracelet</h3>
+        <p class="price">₹2500</p>
+        <button onclick="addToCart('Silver Bracelet', 2500)">Add to Cart</button>
+      </div>
+      <div class="item">
+        <img src="images/necklace.jpg" alt="Silver Necklace">
+        <h3>Silver Necklace</h3>
+        <p class="price">₹3200</p>
+        <button onclick="addToCart('Silver Necklace', 3200)">Add to Cart</button>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Have questions? Reach out via WhatsApp or follow us on social media.</p>
+      <ul class="contact-list">
+        <li><strong>WhatsApp:</strong> <a href="https://wa.me/919067116881" target="_blank">+91 90671 6881</a></li>
+        <li><strong>Email:</strong> <a href="mailto:info@nestasilvers.in">info@nestasilvers.in</a></li>
+      </ul>
+      <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=61592820982908" target="_blank" class="social-link">Facebook</a>
+        <a href="https://www.instagram.com/nestasilvers/" target="_blank" class="social-link">Instagram</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; Nesta Silvers — All rights reserved.</p>
+      <p>WhatsApp: <a href="https://wa.me/919067116881" target="_blank">+91 90671 6881</a></p>
+    </div>
+  </footer>
+
+  <script>
+    function addToCart(name, price) {
+      alert(name + ' added to cart (₹' + price + ')');
+    }
+  </script>
+</body>
+</html>
