@@ -80,3 +80,8 @@ img{max-width:100%;display:block}
   .main-nav{width:100%;justify-content:flex-start}
   .hero-image::before{top:-8%;left:-8%;width:130%;height:110%}
 }
+.product-image{position:relative}
+.product-image.has-alt img+img{position:absolute;inset:0;opacity:0;transition:opacity .3s ease}
+.product-card:hover .product-image.has-alt img+img{opacity:1}
+.product-card .enquire{display:inline-block;margin-top:0.35rem;padding:0.55rem 1.1rem;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:0.85rem}
+.product-card .enquire:hover{background:var(--accent-2)}
