@@ -85,3 +85,5 @@ img{max-width:100%;display:block}
 .product-card:hover .product-image.has-alt img+img{opacity:1}
 .product-card .enquire{display:inline-block;margin-top:0.35rem;padding:0.55rem 1.1rem;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:0.85rem}
 .product-card .enquire:hover{background:var(--accent-2)}
+.product-card .size{margin:0 0 0.2rem;color:var(--muted);font-size:0.85rem}
+.product-card .price{margin:0 0 0.4rem}
